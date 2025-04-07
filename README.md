@@ -28,10 +28,12 @@ Egyszerű blogrendszer PHP és MySQL alapokon.
 
 ## Belépés
 
-Tesztfelhasználó (ha van):
+Tesztfelhasználó:
 
 Email: admin@example.com
 Jelszó: 123
+
+Ha saját felhasználót szeretnénk hozzáadni, akkor az adatbázisból tegyük meg, jelszónak használjuk a password_hash($password, PASSWORD_DEFAULT); ahol a $password legyen a jelszavunk.
 
 
 ## TODO
