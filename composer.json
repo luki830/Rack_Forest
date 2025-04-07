@@ -1,0 +1,13 @@
+{
+    "name": "luki/rack_forest",
+    "autoload": {
+        "psr-4": {
+            "Luki\\RackForest\\": "src/",
+            "App\\": "src/",
+            "Smarty" : "vendor/smarty/smarty"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
